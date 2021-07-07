@@ -17,7 +17,7 @@ python extract.py -i <input image>
 ## Example
 
 This is an example of multiple sanned images 
-![Sample](example/sample.jpg)
+<img src="example/sample.jpg" width=20% height=20%>
 
 The output of the following command is
 ```
