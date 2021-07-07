@@ -163,7 +163,7 @@ for opt, arg in opts:
         print('-f, --freq')
         print(' \t\t Percentage of the pixels scanned. Default {}'.format(freq))
         print('--min_len')
-        print(' \t\t Subimages have a fraction of the original lenght . Default {}'.format(min_len))
+        print(' \t\t Subimages have a minimum length on each axis. Default {}'.format(min_len))
         print('--min_area')
         print(' \t\t Subimages have a fraction of the original area . Default {}'.format(min_area))
         print('--min_entropy')
@@ -174,6 +174,8 @@ for opt, arg in opts:
         print(' \t\t Position in the y axis to find the width of the picture. Default {}'.format(pos_y))
         print('--conf_lvl')
         print(' \t\t Confidence level to distinguish an image from the background. Default {}'.format(conf_lvl))
+        print('--thld_bg')
+        print(" \t\t Threshold to distinguish a photo's  pixel from the background. Default {}".format(thld_bg))
         sys.exit()
     elif opt == '-i':
         img_name = arg
