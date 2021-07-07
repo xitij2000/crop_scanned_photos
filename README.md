@@ -17,17 +17,19 @@ python extract.py -i <input image>
 ## Example
 
 This is an example of multiple sanned images 
-<img src="example/sample.jpg" width=20% height=20%>
+
+<img src="example/sample.jpg" width=30% height=30%>
 
 The output of the following command is
 ```
 python extract.py -i example/sample.jpg
 ```
-![Img0](example/sample_0.jpg)
-![Img1](example/sample_1.jpg)
-![Img2](example/sample_2.jpg)
-![Img3](example/sample_3.jpg)
-![Img4](example/sample_4.jpg)
+
+<img src="example/sample_0.jpg" width=30% height=30%>
+<img src="example/sample_1.jpg" width=30% height=30%>
+<img src="example/sample_2.jpg" width=30% height=30%>
+<img src="example/sample_3.jpg" width=30% height=30%>
+<img src="example/sample_4.jpg" width=30% height=30%>
 
 
 ## Options:
