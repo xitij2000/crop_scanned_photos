@@ -72,20 +72,20 @@ def extract_image(boxes_exclude, img, x, y):
           and not boxes_intersect(boxes_exclude, (x1, y, x2, y)):
         y -= 1
     y1 = y
-    
+
     y = y0
     while y<height-1 and is_picture(img, x, y) \
           and not boxes_intersect(boxes_exclude, (x1, y1, x2, y)):
         y += 1
     y2 = y
-    
+
     y = y1+(y2-y1)*pos_y
     x = x2
     while x<width-1 and is_picture(img, x, y) \
           and not boxes_intersect(boxes_exclude, (x1,y1,x,y2)):
         x += 1
     x2 = x
-    
+
     x = x1
     while x>0 and is_picture(img, x, y) \
           and not boxes_intersect(boxes_exclude, (x,y1,x2,y2)):
@@ -223,3 +223,6 @@ for y in range(step, height, step):
                     boxes_exclude.append( box_img )
                     img_num += 1
 
+
+def main():
+    pass
